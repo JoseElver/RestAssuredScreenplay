@@ -1,0 +1,28 @@
+[
+  {
+    "Environments": {
+      "UrlBase": "https://petstore.swagger.io/",
+      "Endpoint": "v2/pet/"
+    },
+    "BodyPost": {
+      "id": "1",
+      "id_category": "2",
+      "name_category": "Mascotas",
+      "name": "Tommy",
+      "photoUrls": "Tommy.png",
+      "id_tags": "7",
+      "name_tags": "Mamíferos",
+      "status": "Disponible"
+    },
+    "BodyPut": {
+      "id": "1",
+      "id_category": "3",
+      "name_category": "Mascotas",
+      "name": "Firulais",
+      "photoUrls": "Firulais.png",
+      "id_tags": "8",
+      "name_tags": "Mamíferos",
+      "status": "Agotado"
+    }
+  }
+]
