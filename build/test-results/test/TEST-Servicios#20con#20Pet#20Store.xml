@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Servicios con Pet Store" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-04T02:00:16" hostname="DESKTOP-H392E30" time="6.003">
+<testsuite name="Servicios con Pet Store" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-10T02:55:10" hostname="DESKTOP-H392E30" time="6.742">
   <properties/>
-  <testcase name="Servicios con Pet Store" classname="Servicios con Pet Store" time="6.003"/>
+  <testcase name="Servicios con Pet Store" classname="Servicios con Pet Store" time="6.742"/>
   <system-out><![CDATA[
 @HU
 Escenario: Servicios con Pet Store                     ?[90m# src/test/resources/features/petstore_rest.feature:6?[0m
   ?[32mDado ?[0m?[32mquiero enviar la siguiente informacion a la API?[0m ?[90m# io.swagger.peststore.stepDefinitions.PetStoreRestStepDefinition.quieroEnviarLaSiguienteInformacionALaAPI()?[0m
-{"id":1,"category":{"id":2,"name":"Mascotas"},"name":"Tommy","photoUrls":["Tommy.png"],"tags":[{"id":7,"name":"MamÃ­feros"}],"status":"Disponible"}
-{"id":1,"category":{"id":3,"name":"Mascotas"},"name":"Firulais","photoUrls":["Firulais.png"],"tags":[{"id":8,"name":"MamÃ­feros"}],"status":"Agotado"}
+{"id":1,"category":{"id":2,"name":"Mascotas"},"name":"Tommy","photoUrls":["Tommy.png"],"tags":[{"id":7,"name":"Mamíferos"}],"status":"Disponible"}
+{"id":1,"category":{"id":3,"name":"Mascotas"},"name":"Firulais","photoUrls":["Firulais.png"],"tags":[{"id":8,"name":"Mamíferos"}],"status":"Agotado"}
   ?[32mCuando ?[0m?[32mhago el CRUD del servicio?[0m                     ?[90m# io.swagger.peststore.stepDefinitions.PetStoreRestStepDefinition.hagoElCRUDDelServicio()?[0m
   ?[32mEntonces ?[0m?[32mvalido que el codigo de estatus sea ?[0m?[32m?[1m200?[0m     ?[90m# io.swagger.peststore.stepDefinitions.PetStoreRestStepDefinition.validoQueElCodigoDeEstatusSea(java.lang.String)?[0m
 ]]></system-out>

@@ -1,6 +1,5 @@
 buildscript {
-    ext.serenityCoreVersion = '4.0.19'
-    ext.serenityReport = '3.4.2'
+    ext.serenityCoreVersion = '3.9.8'
 
     repositories {
         mavenLocal()
@@ -9,13 +8,13 @@ buildscript {
     }
 
     dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:$serenityReport")
-        classpath "net.serenity-bdd:serenity-single-page-report:$serenityReport"
+        classpath("net.serenity-bdd:serenity-gradle-plugin:$serenityCoreVersion")
+        classpath "net.serenity-bdd:serenity-single-page-report:$serenityCoreVersion"
     }
 }
 
 plugins {
-    id "net.serenity-bdd.serenity-gradle-plugin" version "3.3.0"
+    id "net.serenity-bdd.serenity-gradle-plugin" version "$serenityCoreVersion"
     id 'java'
     id 'eclipse'
     id 'idea'
